@@ -1,0 +1,94 @@
+D:\HGLASER\Development\HGMarkStudio\HGMark.Common\bin\Debug\HGMark.Common.dll
+D:\HGLASER\Development\HGMarkStudio\HGMark.Common\bin\Debug\HGMark.Common.pdb
+D:\HGLASER\Development\HGMarkStudio\HGMark.Common\obj\Debug\HGMark.Common.csprojResolveAssemblyReference.cache
+D:\HGLASER\Development\HGMarkStudio\HGMark.Common\obj\Debug\HGMark.Common.dll
+D:\HGLASER\Development\HGMarkStudio\HGMark.Common\obj\Debug\HGMark.Common.pdb
+F:\达标标准打标卡\HGMarkStudio\HGMarkStudio\HGMark.Common\bin\Debug\HGMark.Common.pdb
+F:\达标标准打标卡\HGMarkStudio\HGMarkStudio\HGMark.Common\obj\Debug\HGMark.Common.pdb
+F:\达标标准打标卡\HGMarkStudio\HGMarkStudio\HGMark.Common\obj\Debug\HGMark.Common.Form1.resources
+F:\达标标准打标卡\HGMarkStudio\HGMarkStudio\HGMark.Common\obj\Debug\HGMark.Common.csproj.GenerateResource.Cache
+F:\达标标准打标卡\HGMarkStudio\HGMarkStudio\HGMark.Common\bin\Debug\HGMark.Common.exe
+F:\达标标准打标卡\HGMarkStudio\HGMarkStudio\HGMark.Common\obj\Debug\HGMark.Common.exe
+F:\达标标准打标卡\HGMarkStudio\HGMarkStudio\HGMark.Common\obj\Debug\HGMark.Common.csprojResolveAssemblyReference.cache
+F:\达标标准打标卡\HGMarkStudio\HGMarkStudio\HGMark.Common\bin\Debug\HGMark.Common.exe.config
+F:\达标标准打标卡\HGMarkStudio20180416\HGMarkStudio\HGMark.Common\obj\Debug\HGMark.Common.pdb
+F:\达标标准打标卡\HGMarkStudio20180416\HGMarkStudio\HGMark.Common\bin\Debug\HGMark.Common.pdb
+F:\达标标准打标卡\HGMarkStudio20180416\HGMarkStudio\HGMark.Common\obj\Debug\HGMark.Common.Form1.resources
+F:\达标标准打标卡\HGMarkStudio20180416\HGMarkStudio\HGMark.Common\obj\Debug\HGMark.Common.csproj.GenerateResource.Cache
+F:\达标标准打标卡\HGMarkStudio20180416\HGMarkStudio\HGMark.Common\bin\Debug\HGMark.Common.exe.config
+F:\达标标准打标卡\HGMarkStudio20180416\HGMarkStudio\HGMark.Common\bin\Debug\HGMark.Common.exe
+F:\达标标准打标卡\HGMarkStudio20180416\HGMarkStudio\HGMark.Common\obj\Debug\HGMark.Common.exe
+F:\达标标准打标卡\HGMarkStudio20180416\HGMarkStudio\HGMark.Common\obj\Debug\HGMark.Common.csprojResolveAssemblyReference.cache
+F:\归档\comdll\HGMark.Common\bin\Debug\HGMark.Common.pdb
+F:\归档\comdll\HGMark.Common\obj\Debug\HGMark.Common.Form1.resources
+F:\归档\comdll\HGMark.Common\obj\Debug\HGMark.Common.csproj.GenerateResource.Cache
+F:\归档\comdll\HGMark.Common\obj\Debug\HGMark.Common.pdb
+F:\归档\comdll\HGMark.Common\bin\Debug\HGMark.Common.dll.config
+F:\归档\comdll\HGMark.Common\bin\Debug\HGMark.Common.dll
+F:\归档\comdll\HGMark.Common\obj\Debug\HGMark.Common.dll
+F:\归档\TY归档\宿豫电子\HGMark.Common\bin\Debug\HGMark.Common.dll.config
+F:\归档\TY归档\宿豫电子\HGMark.Common\bin\Debug\HGMark.Common.dll
+F:\归档\TY归档\宿豫电子\HGMark.Common\bin\Debug\HGMark.Common.pdb
+F:\归档\TY归档\宿豫电子\HGMark.Common\obj\Debug\HGMark.Common.dll
+F:\归档\TY归档\宿豫电子\HGMark.Common\obj\Debug\HGMark.Common.pdb
+F:\归档\TY归档\外挂通用项目模板\HGMark.Common\bin\Debug\HGMark.Common.dll.config
+F:\归档\TY归档\外挂通用项目模板\HGMark.Common\bin\Debug\HGMark.Common.dll
+F:\归档\TY归档\外挂通用项目模板\HGMark.Common\bin\Debug\HGMark.Common.pdb
+F:\归档\TY归档\外挂通用项目模板\HGMark.Common\obj\Debug\HGMark.Common.csprojResolveAssemblyReference.cache
+F:\归档\TY归档\外挂通用项目模板\HGMark.Common\obj\Debug\HGMark.Common.dll
+F:\归档\TY归档\外挂通用项目模板\HGMark.Common\obj\Debug\HGMark.Common.pdb
+C:\Users\Administrator\Desktop\TCL\TCL罗格朗\HGMark.Common\bin\Debug\HGMark.Common.dll.config
+C:\Users\Administrator\Desktop\TCL\TCL罗格朗\HGMark.Common\bin\Debug\HGMark.Common.dll
+C:\Users\Administrator\Desktop\TCL\TCL罗格朗\HGMark.Common\bin\Debug\HGMark.Common.pdb
+C:\Users\Administrator\Desktop\TCL\TCL罗格朗\HGMark.Common\bin\Debug\mscorlib.dll
+C:\Users\Administrator\Desktop\TCL\TCL罗格朗\HGMark.Common\bin\Debug\zh-Hans\mscorlib.resources.dll
+C:\Users\Administrator\Desktop\TCL\TCL罗格朗\HGMark.Common\bin\Debug\normidna.nlp
+C:\Users\Administrator\Desktop\TCL\TCL罗格朗\HGMark.Common\bin\Debug\normnfc.nlp
+C:\Users\Administrator\Desktop\TCL\TCL罗格朗\HGMark.Common\bin\Debug\normnfd.nlp
+C:\Users\Administrator\Desktop\TCL\TCL罗格朗\HGMark.Common\bin\Debug\normnfkc.nlp
+C:\Users\Administrator\Desktop\TCL\TCL罗格朗\HGMark.Common\bin\Debug\normnfkd.nlp
+C:\Users\Administrator\Desktop\TCL\TCL罗格朗\HGMark.Common\obj\Debug\HGMark.Common.dll
+C:\Users\Administrator\Desktop\TCL\TCL罗格朗\HGMark.Common\obj\Debug\HGMark.Common.pdb
+F:\归档\TY归档\TCL罗格朗\TCL罗格朗\HGMark.Common\bin\Debug\HGMark.Common.dll.config
+F:\归档\TY归档\TCL罗格朗\TCL罗格朗\HGMark.Common\bin\Debug\HGMark.Common.dll
+F:\归档\TY归档\TCL罗格朗\TCL罗格朗\HGMark.Common\bin\Debug\HGMark.Common.pdb
+F:\归档\TY归档\TCL罗格朗\TCL罗格朗\HGMark.Common\obj\Debug\HGMark.Common.dll
+F:\归档\TY归档\TCL罗格朗\TCL罗格朗\HGMark.Common\obj\Debug\HGMark.Common.pdb
+C:\Users\Administrator\Desktop\TCL罗格朗2010709\TCL罗格朗2010709\TCL罗格朗\HGMark.Common\bin\Debug\HGMark.Common.dll.config
+C:\Users\Administrator\Desktop\TCL罗格朗2010709\TCL罗格朗2010709\TCL罗格朗\HGMark.Common\bin\Debug\HGMark.Common.dll
+C:\Users\Administrator\Desktop\TCL罗格朗2010709\TCL罗格朗2010709\TCL罗格朗\HGMark.Common\bin\Debug\HGMark.Common.pdb
+C:\Users\Administrator\Desktop\TCL罗格朗2010709\TCL罗格朗2010709\TCL罗格朗\HGMark.Common\obj\Debug\HGMark.Common.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\TCL罗格朗2010709\TCL罗格朗2010709\TCL罗格朗\HGMark.Common\obj\Debug\HGMark.Common.dll
+C:\Users\Administrator\Desktop\TCL罗格朗2010709\TCL罗格朗2010709\TCL罗格朗\HGMark.Common\obj\Debug\HGMark.Common.pdb
+F:\归档\项目归档\TCL罗格朗\TCL罗格朗2010709\TCL罗格朗2010709\TCL罗格朗\HGMark.Common\bin\Debug\HGMark.Common.dll.config
+F:\归档\项目归档\TCL罗格朗\TCL罗格朗2010709\TCL罗格朗2010709\TCL罗格朗\HGMark.Common\bin\Debug\HGMark.Common.dll
+F:\归档\项目归档\TCL罗格朗\TCL罗格朗2010709\TCL罗格朗2010709\TCL罗格朗\HGMark.Common\bin\Debug\HGMark.Common.pdb
+F:\归档\项目归档\TCL罗格朗\TCL罗格朗2010709\TCL罗格朗2010709\TCL罗格朗\HGMark.Common\obj\Debug\HGMark.Common.csprojResolveAssemblyReference.cache
+F:\归档\项目归档\TCL罗格朗\TCL罗格朗2010709\TCL罗格朗2010709\TCL罗格朗\HGMark.Common\obj\Debug\HGMark.Common.dll
+F:\归档\项目归档\TCL罗格朗\TCL罗格朗2010709\TCL罗格朗2010709\TCL罗格朗\HGMark.Common\obj\Debug\HGMark.Common.pdb
+C:\Users\hgtech\Desktop\TCL罗格朗 - 3.0 - 取消缓存为空报警\TCL罗格朗 - 3.0 - 取消缓存为空报警\HGMark.Common\bin\Debug\HGMark.Common.dll.config
+C:\Users\hgtech\Desktop\TCL罗格朗 - 3.0 - 取消缓存为空报警\TCL罗格朗 - 3.0 - 取消缓存为空报警\HGMark.Common\bin\Debug\HGMark.Common.dll
+C:\Users\hgtech\Desktop\TCL罗格朗 - 3.0 - 取消缓存为空报警\TCL罗格朗 - 3.0 - 取消缓存为空报警\HGMark.Common\bin\Debug\HGMark.Common.pdb
+C:\Users\hgtech\Desktop\TCL罗格朗 - 3.0 - 取消缓存为空报警\TCL罗格朗 - 3.0 - 取消缓存为空报警\HGMark.Common\bin\Debug\mscorlib.dll
+C:\Users\hgtech\Desktop\TCL罗格朗 - 3.0 - 取消缓存为空报警\TCL罗格朗 - 3.0 - 取消缓存为空报警\HGMark.Common\bin\Debug\System.Net.Http.dll
+C:\Users\hgtech\Desktop\TCL罗格朗 - 3.0 - 取消缓存为空报警\TCL罗格朗 - 3.0 - 取消缓存为空报警\HGMark.Common\bin\Debug\System.Net.Http.xml
+C:\Users\hgtech\Desktop\TCL罗格朗 - 3.0 - 取消缓存为空报警\TCL罗格朗 - 3.0 - 取消缓存为空报警\HGMark.Common\bin\Debug\zh-Hans\mscorlib.resources.dll
+C:\Users\hgtech\Desktop\TCL罗格朗 - 3.0 - 取消缓存为空报警\TCL罗格朗 - 3.0 - 取消缓存为空报警\HGMark.Common\bin\Debug\normidna.nlp
+C:\Users\hgtech\Desktop\TCL罗格朗 - 3.0 - 取消缓存为空报警\TCL罗格朗 - 3.0 - 取消缓存为空报警\HGMark.Common\bin\Debug\normnfc.nlp
+C:\Users\hgtech\Desktop\TCL罗格朗 - 3.0 - 取消缓存为空报警\TCL罗格朗 - 3.0 - 取消缓存为空报警\HGMark.Common\bin\Debug\normnfd.nlp
+C:\Users\hgtech\Desktop\TCL罗格朗 - 3.0 - 取消缓存为空报警\TCL罗格朗 - 3.0 - 取消缓存为空报警\HGMark.Common\bin\Debug\normnfkc.nlp
+C:\Users\hgtech\Desktop\TCL罗格朗 - 3.0 - 取消缓存为空报警\TCL罗格朗 - 3.0 - 取消缓存为空报警\HGMark.Common\bin\Debug\normnfkd.nlp
+C:\Users\hgtech\Desktop\TCL罗格朗 - 3.0 - 取消缓存为空报警\TCL罗格朗 - 3.0 - 取消缓存为空报警\HGMark.Common\obj\Debug\HGMark.Common.csprojResolveAssemblyReference.cache
+C:\Users\hgtech\Desktop\TCL罗格朗 - 3.0 - 取消缓存为空报警\TCL罗格朗 - 3.0 - 取消缓存为空报警\HGMark.Common\obj\Debug\HGMark.Common.dll
+C:\Users\hgtech\Desktop\TCL罗格朗 - 3.0 - 取消缓存为空报警\TCL罗格朗 - 3.0 - 取消缓存为空报警\HGMark.Common\obj\Debug\HGMark.Common.pdb
+C:\Users\Administrator\Desktop\TCL罗格朗\TCL罗格朗 - 3.0 - 取消缓存为空报警\TCL罗格朗 - 3.0 - 取消缓存为空报警\HGMark.Common\bin\Debug\HGMark.Common.dll.config
+C:\Users\Administrator\Desktop\TCL罗格朗\TCL罗格朗 - 3.0 - 取消缓存为空报警\TCL罗格朗 - 3.0 - 取消缓存为空报警\HGMark.Common\bin\Debug\HGMark.Common.dll
+C:\Users\Administrator\Desktop\TCL罗格朗\TCL罗格朗 - 3.0 - 取消缓存为空报警\TCL罗格朗 - 3.0 - 取消缓存为空报警\HGMark.Common\bin\Debug\HGMark.Common.pdb
+C:\Users\Administrator\Desktop\TCL罗格朗\TCL罗格朗 - 3.0 - 取消缓存为空报警\TCL罗格朗 - 3.0 - 取消缓存为空报警\HGMark.Common\obj\Debug\HGMark.Common.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\TCL罗格朗\TCL罗格朗 - 3.0 - 取消缓存为空报警\TCL罗格朗 - 3.0 - 取消缓存为空报警\HGMark.Common\obj\Debug\HGMark.Common.dll
+C:\Users\Administrator\Desktop\TCL罗格朗\TCL罗格朗 - 3.0 - 取消缓存为空报警\TCL罗格朗 - 3.0 - 取消缓存为空报警\HGMark.Common\obj\Debug\HGMark.Common.pdb
+F:\归档\项目归档\TCL罗格朗\New folder\TCL罗格朗 - 3.9\TCL罗格朗 - 3.0 - 取消缓存为空报警\HGMark.Common\bin\Debug\HGMark.Common.dll.config
+F:\归档\项目归档\TCL罗格朗\New folder\TCL罗格朗 - 3.9\TCL罗格朗 - 3.0 - 取消缓存为空报警\HGMark.Common\bin\Debug\HGMark.Common.dll
+F:\归档\项目归档\TCL罗格朗\New folder\TCL罗格朗 - 3.9\TCL罗格朗 - 3.0 - 取消缓存为空报警\HGMark.Common\bin\Debug\HGMark.Common.pdb
+F:\归档\项目归档\TCL罗格朗\New folder\TCL罗格朗 - 3.9\TCL罗格朗 - 3.0 - 取消缓存为空报警\HGMark.Common\obj\Debug\HGMark.Common.dll
+F:\归档\项目归档\TCL罗格朗\New folder\TCL罗格朗 - 3.9\TCL罗格朗 - 3.0 - 取消缓存为空报警\HGMark.Common\obj\Debug\HGMark.Common.pdb
