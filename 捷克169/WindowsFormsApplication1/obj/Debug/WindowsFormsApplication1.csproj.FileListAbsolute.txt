@@ -917,3 +917,8 @@ F:\归档\项目归档2019\捷克169\WindowsFormsApplication1\obj\Debug\Interop.
 F:\归档\项目归档2019\捷克169\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.ResolveComReference.cache
 F:\归档\项目归档2019\捷克169\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
 F:\归档\项目归档2019\捷克169\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+F:\归档\GETHUB2019PROJECTS\2019\捷克169\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+F:\归档\GETHUB2019PROJECTS\2019\捷克169\WindowsFormsApplication1\obj\Debug\Interop.ADOX.dll
+F:\归档\GETHUB2019PROJECTS\2019\捷克169\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.ResolveComReference.cache
+F:\归档\GETHUB2019PROJECTS\2019\捷克169\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+F:\归档\GETHUB2019PROJECTS\2019\捷克169\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
