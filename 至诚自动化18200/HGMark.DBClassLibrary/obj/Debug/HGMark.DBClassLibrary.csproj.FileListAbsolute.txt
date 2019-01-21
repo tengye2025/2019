@@ -24,6 +24,5 @@ C:\Users\hgtech\Desktop\昆山同日\同日\HGMark.DBClassLibrary\obj\Debug\HGMa
 C:\Users\hgtech\Desktop\昆山同日\同日\HGMark.DBClassLibrary\obj\Debug\HGMark.DBClassLibrary.pdb
 F:\归档\GETHUB2019PROJECTS\2019\至诚自动化18200\HGMark.DBClassLibrary\bin\Debug\HGMark.DBClassLibrary.dll
 F:\归档\GETHUB2019PROJECTS\2019\至诚自动化18200\HGMark.DBClassLibrary\bin\Debug\HGMark.DBClassLibrary.pdb
-F:\归档\GETHUB2019PROJECTS\2019\至诚自动化18200\HGMark.DBClassLibrary\obj\Debug\HGMark.DBClassLibrary.csprojResolveAssemblyReference.cache
 F:\归档\GETHUB2019PROJECTS\2019\至诚自动化18200\HGMark.DBClassLibrary\obj\Debug\HGMark.DBClassLibrary.dll
 F:\归档\GETHUB2019PROJECTS\2019\至诚自动化18200\HGMark.DBClassLibrary\obj\Debug\HGMark.DBClassLibrary.pdb
