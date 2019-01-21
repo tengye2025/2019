@@ -1,0 +1,13 @@
+F:\归档\项目归档\长虹白家电\长虹\HGMark.FTPClassLibrary\bin\Debug\HGMark.FTPClassLibrary.dll
+F:\归档\项目归档\长虹白家电\长虹\HGMark.FTPClassLibrary\bin\Debug\HGMark.FTPClassLibrary.pdb
+F:\归档\项目归档\长虹白家电\长虹\HGMark.FTPClassLibrary\obj\Debug\HGMark.FTPClassLibrary.csprojResolveAssemblyReference.cache
+F:\归档\项目归档\长虹白家电\长虹\HGMark.FTPClassLibrary\obj\Debug\HGMark.FTPClassLibrary.dll
+F:\归档\项目归档\长虹白家电\长虹\HGMark.FTPClassLibrary\obj\Debug\HGMark.FTPClassLibrary.pdb
+G:\潍柴\潍柴\HGMark.FTPClassLibrary\bin\Debug\HGMark.FTPClassLibrary.dll
+G:\潍柴\潍柴\HGMark.FTPClassLibrary\bin\Debug\HGMark.FTPClassLibrary.pdb
+G:\潍柴\潍柴\HGMark.FTPClassLibrary\obj\Debug\HGMark.FTPClassLibrary.dll
+G:\潍柴\潍柴\HGMark.FTPClassLibrary\obj\Debug\HGMark.FTPClassLibrary.pdb
+I:\潍柴\潍柴\HGMark.FTPClassLibrary\bin\Debug\HGMark.FTPClassLibrary.dll
+I:\潍柴\潍柴\HGMark.FTPClassLibrary\bin\Debug\HGMark.FTPClassLibrary.pdb
+I:\潍柴\潍柴\HGMark.FTPClassLibrary\obj\Debug\HGMark.FTPClassLibrary.dll
+I:\潍柴\潍柴\HGMark.FTPClassLibrary\obj\Debug\HGMark.FTPClassLibrary.pdb

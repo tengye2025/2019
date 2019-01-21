@@ -1,0 +1,99 @@
+;; LMCUSB.INF - INF to install BJJCZ USB LMC Device
+;; Copyright (c) 2001, BJJCZ Corporation,LTD
+;; 北京金橙子科技有限公司
+;; Use Add New Hardware (other devices) from the Control Panel
+
+[Version]
+Signature="$CHICAGO$"
+Provider=%BJJCZ%
+Class=USB
+DriverVer=28/10/2009,3.0.0.0
+
+;--------- Manufacturer and Models Sections ----------------------------------
+
+[Manufacturer]
+%BJJCZ%=DeviceList
+
+[DeviceList]
+%EZUSB%=Install_LMC, USB\VID_0547&PID_0080
+%JCZUSBDEV%=Install_LMC, USB\VID_04B4&PID_8613
+%JCZUSB1%=Install_LMC, USB\VID_9588&PID_9990
+%EZUSBDEV%=Install_LMC, USB\VID_04B4&PID_1004
+%USBLMC%=Install_LMC, USB\VID_9588&PID_9999
+
+
+;---------- DDInstall Sections -----------------------------------------------
+; --------- Windows 9X -----------------
+
+; Experimentation has shown that DDInstall root names greater than 19 characters
+; cause problems in Windows 98
+
+[Install_LMC]
+DriverVer=28/10/2009,3.0.0.0
+CopyFiles=LMCUSB_Files_Driver
+AddReg=LMCUSB_9X_AddReg
+
+[LMCUSB_9X_AddReg]
+HKR,,DevLoader,,*ntkern
+HKR,,NTMPDriver,,LMCUSB.sys
+HKR, "Parameters", "BreakOnEntry", 0x00010001, 0
+HKR, "Parameters", "Control", 0x00010001, 0
+
+; --------- Windows NT -----------------
+
+[Install_LMC.NT]
+DriverVer=28/10/2009,3.0.0.0
+CopyFiles=LMCUSB_Files_Driver
+AddReg=JDUSB_NT_AddReg
+
+[Install_LMC.NT.Services]
+Addservice = LMCUSB, 0x00000002, JDUSB_AddService
+
+[JDUSB_AddService]
+DisplayName    = %SvcDesc%
+ServiceType    = 1                  ; SERVICE_KERNEL_DRIVER
+StartType      = 2                  ; SERVICE_DEMAND_START
+ErrorControl   = 1                  ; SERVICE_ERROR_NORMAL
+ServiceBinary  = %10%\System32\Drivers\LMCUSB.sys
+LoadOrderGroup = Base
+
+[JDUSB_NT_AddReg]
+HKLM, "System\CurrentControlSet\Services\JDUSB\Parameters",\
+	"BreakOnEntry", 0x00010001, 0
+HKLM, "System\CurrentControlSet\Services\JDUSB\Parameters",\
+	"Control", 0x00010001, 0
+
+; --------- Files (common) -------------
+
+[LMCUSB_Files_Driver]
+LMCUSB.sys
+
+;--------- SourceDiskNames and SourceDiskFiles Section -----------------------
+
+[SourceDisksNames]
+1=%InstallDisk%,USBLMC_DISK1,1
+
+[SourceDisksFiles]
+LMCUSB.sys = 1,,
+
+;--------- DestinationDirs Section -------------------------------------------
+
+[DestinationDirs]
+LMCUSB_Files_Driver = 10,System32\Drivers
+
+
+;--------- Strings Section ---------------------------------------------------
+
+[Strings]
+BJJCZ = "BeiJing JCZ Co.,Ltd "
+JCZUSBDEV=" USB LMC "
+JCZUSB1="USB LMC V1"
+EZUSB = "Anchor Chips EZ-USB 开发板"
+EZUSBDEV="BULK TEST DEVICE"
+USBLMC="Laser Mark Control Board [USB]"
+JDICON   ="System\CurrentControlSet\Services\Class\Laser Device"
+DEVICON   ="System\CurrentControlSet\Services\Class\Laser Device"
+InstallDisk = "BJJCZ USB LMC board Install"
+DeviceClassName="Laser Device"
+SvcDesc="BJJCZ Device"
+

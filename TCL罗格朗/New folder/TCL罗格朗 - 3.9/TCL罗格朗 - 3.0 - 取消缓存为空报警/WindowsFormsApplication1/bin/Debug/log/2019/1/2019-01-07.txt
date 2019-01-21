@@ -1,0 +1,10 @@
+[2][2019/1/7 15:00:37][0745]Com mes successful
+[2][2019/1/7 15:01:08][0627]Com mes successful
+[4][2019/1/7 15:01:08][0733]com IO successful
+[2][2019/1/7 15:03:37][0950]Com mes successful
+[3][2019/1/7 15:03:37][0974]com IO successful
+[6][2019/1/7 15:06:06][0297]add print text to list:ERNC01/T01/TV-C1         140529FS462497
+[8][2019/1/7 15:06:09][0884]add print text to list:ERNC01/T01/TV-C1         140529FS462497
+[10][2019/1/7 15:06:11][0244]ERNC01/T01/TV-C1         140529FS462497  can not added to the list,as the list count is  :2
+[12][2019/1/7 15:06:16][0353]ERNC01/T01/TV-C1         140529FS462497  can not added to the list,as the list count is  :2
+[14][2019/1/7 15:06:17][0046]ERNC01/T01/TV-C1         140529FS462497  can not added to the list,as the list count is  :2

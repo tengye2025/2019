@@ -70,7 +70,7 @@ namespace WindowsFormsApplication1
                 SetProcessbarvalue(0);
                 INITWINDOWSFORM();
                 SetProcessbarvalue(20);
-                HGLASERINIT();
+               // HGLASERINIT();
                 SetProcessbarvalue(70);
                 for (byte a = 0; a <= 100; a++)
                 {
@@ -300,7 +300,7 @@ namespace WindowsFormsApplication1
                            
                                 while (true)
                                 {
-                                    Thread.Sleep(10);
+                                    Thread.Sleep(5);
                                     lock (lockprintstring)
                                     {
                                         if (printstring.Count > Convert.ToInt32(textBoxnumberofwipeouterr.Text))
@@ -439,8 +439,7 @@ namespace WindowsFormsApplication1
 
             if (ComworkIO.Open())
             {
-                byte[] wrok1_off = System.Text.Encoding.ASCII.GetBytes("i");
-                ComworkIO.Write(wrok1_off);
+               
                 log.WriteLog("com IO successful", textBoxlog);
             }
             else
@@ -486,18 +485,21 @@ namespace WindowsFormsApplication1
         }
         private void DoWorkIO(object sender, DoWorkEventArgs e)
         {
-            byte[] AA = System.Text.Encoding.ASCII.GetBytes("A");
+            byte[] AA =new byte[1];
+             AA[0] = 0X11;
             ComworkIO.Write(AA);
             Thread.Sleep(20);
-                 byte[] DD = System.Text.Encoding.ASCII.GetBytes("D");
+            byte[] DD = new byte[1];
+            DD[0] = 0X41;
             ComworkIO.Write(DD);
 
             Thread.Sleep(1000);
-            byte[] aa = System.Text.Encoding.ASCII.GetBytes("a");
-            ComworkIO.Write(aa);
-            Thread.Sleep(20);
-            byte[] dd = System.Text.Encoding.ASCII.GetBytes("d");
-            ComworkIO.Write(dd);
+      
+            AA[0] = 0X10;
+            ComworkIO.Write(AA);
+            Thread.Sleep(20);        
+            DD[0] = 0X40;
+            ComworkIO.Write(DD);
 
         }
         /// <summary>

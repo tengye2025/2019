@@ -40,9 +40,9 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(61, 81);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(149, 12);
+            this.label1.Size = new System.Drawing.Size(143, 12);
             this.label1.TabIndex = 0;
-            this.label1.Text = "根据以下一串数据填写密码";
+            this.label1.Text = "please enter a password";
             // 
             // label2
             // 
@@ -68,7 +68,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(66, 29);
             this.button1.TabIndex = 3;
-            this.button1.Text = "确定";
+            this.button1.Text = "ok";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -78,7 +78,7 @@
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(66, 29);
             this.button2.TabIndex = 4;
-            this.button2.Text = "取消";
+            this.button2.Text = "cancel";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 

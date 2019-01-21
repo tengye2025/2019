@@ -92,3 +92,9 @@ F:\归档\项目归档\TCL罗格朗\New folder\TCL罗格朗 - 3.9\TCL罗格朗 -
 F:\归档\项目归档\TCL罗格朗\New folder\TCL罗格朗 - 3.9\TCL罗格朗 - 3.0 - 取消缓存为空报警\HGMark.Common\bin\Debug\HGMark.Common.pdb
 F:\归档\项目归档\TCL罗格朗\New folder\TCL罗格朗 - 3.9\TCL罗格朗 - 3.0 - 取消缓存为空报警\HGMark.Common\obj\Debug\HGMark.Common.dll
 F:\归档\项目归档\TCL罗格朗\New folder\TCL罗格朗 - 3.9\TCL罗格朗 - 3.0 - 取消缓存为空报警\HGMark.Common\obj\Debug\HGMark.Common.pdb
+F:\归档\GETHUB2019PROJECTS\2019\TCL罗格朗\New folder\TCL罗格朗 - 3.9\TCL罗格朗 - 3.0 - 取消缓存为空报警\HGMark.Common\bin\Debug\HGMark.Common.dll.config
+F:\归档\GETHUB2019PROJECTS\2019\TCL罗格朗\New folder\TCL罗格朗 - 3.9\TCL罗格朗 - 3.0 - 取消缓存为空报警\HGMark.Common\bin\Debug\HGMark.Common.dll
+F:\归档\GETHUB2019PROJECTS\2019\TCL罗格朗\New folder\TCL罗格朗 - 3.9\TCL罗格朗 - 3.0 - 取消缓存为空报警\HGMark.Common\bin\Debug\HGMark.Common.pdb
+F:\归档\GETHUB2019PROJECTS\2019\TCL罗格朗\New folder\TCL罗格朗 - 3.9\TCL罗格朗 - 3.0 - 取消缓存为空报警\HGMark.Common\obj\Debug\HGMark.Common.csprojResolveAssemblyReference.cache
+F:\归档\GETHUB2019PROJECTS\2019\TCL罗格朗\New folder\TCL罗格朗 - 3.9\TCL罗格朗 - 3.0 - 取消缓存为空报警\HGMark.Common\obj\Debug\HGMark.Common.dll
+F:\归档\GETHUB2019PROJECTS\2019\TCL罗格朗\New folder\TCL罗格朗 - 3.9\TCL罗格朗 - 3.0 - 取消缓存为空报警\HGMark.Common\obj\Debug\HGMark.Common.pdb

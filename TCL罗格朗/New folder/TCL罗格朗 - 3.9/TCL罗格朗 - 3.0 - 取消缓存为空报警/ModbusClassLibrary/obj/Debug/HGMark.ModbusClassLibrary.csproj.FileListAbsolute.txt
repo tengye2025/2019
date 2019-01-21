@@ -68,3 +68,10 @@ F:\归档\项目归档\TCL罗格朗\New folder\TCL罗格朗 - 3.9\TCL罗格朗 -
 F:\归档\项目归档\TCL罗格朗\New folder\TCL罗格朗 - 3.9\TCL罗格朗 - 3.0 - 取消缓存为空报警\ModbusClassLibrary\obj\Debug\HGMark.ModbusClassLibrary.csproj.GenerateResource.Cache
 F:\归档\项目归档\TCL罗格朗\New folder\TCL罗格朗 - 3.9\TCL罗格朗 - 3.0 - 取消缓存为空报警\ModbusClassLibrary\obj\Debug\ModbusClassLibrary.dll
 F:\归档\项目归档\TCL罗格朗\New folder\TCL罗格朗 - 3.9\TCL罗格朗 - 3.0 - 取消缓存为空报警\ModbusClassLibrary\obj\Debug\ModbusClassLibrary.pdb
+F:\归档\GETHUB2019PROJECTS\2019\TCL罗格朗\New folder\TCL罗格朗 - 3.9\TCL罗格朗 - 3.0 - 取消缓存为空报警\ModbusClassLibrary\bin\Debug\ModbusClassLibrary.dll
+F:\归档\GETHUB2019PROJECTS\2019\TCL罗格朗\New folder\TCL罗格朗 - 3.9\TCL罗格朗 - 3.0 - 取消缓存为空报警\ModbusClassLibrary\bin\Debug\ModbusClassLibrary.pdb
+F:\归档\GETHUB2019PROJECTS\2019\TCL罗格朗\New folder\TCL罗格朗 - 3.9\TCL罗格朗 - 3.0 - 取消缓存为空报警\ModbusClassLibrary\obj\Debug\HGMark.ModbusClassLibrary.csprojResolveAssemblyReference.cache
+F:\归档\GETHUB2019PROJECTS\2019\TCL罗格朗\New folder\TCL罗格朗 - 3.9\TCL罗格朗 - 3.0 - 取消缓存为空报警\ModbusClassLibrary\obj\Debug\ModbusClassLibrary.Form1.resources
+F:\归档\GETHUB2019PROJECTS\2019\TCL罗格朗\New folder\TCL罗格朗 - 3.9\TCL罗格朗 - 3.0 - 取消缓存为空报警\ModbusClassLibrary\obj\Debug\HGMark.ModbusClassLibrary.csproj.GenerateResource.Cache
+F:\归档\GETHUB2019PROJECTS\2019\TCL罗格朗\New folder\TCL罗格朗 - 3.9\TCL罗格朗 - 3.0 - 取消缓存为空报警\ModbusClassLibrary\obj\Debug\ModbusClassLibrary.dll
+F:\归档\GETHUB2019PROJECTS\2019\TCL罗格朗\New folder\TCL罗格朗 - 3.9\TCL罗格朗 - 3.0 - 取消缓存为空报警\ModbusClassLibrary\obj\Debug\ModbusClassLibrary.pdb

@@ -1,0 +1,13 @@
+F:\归档\项目归档\长虹白家电\长虹\HGMark.OFFICEClassLibrary\bin\Debug\HGMark.OFFICEClassLibrary.dll
+F:\归档\项目归档\长虹白家电\长虹\HGMark.OFFICEClassLibrary\bin\Debug\HGMark.OFFICEClassLibrary.pdb
+F:\归档\项目归档\长虹白家电\长虹\HGMark.OFFICEClassLibrary\obj\Debug\HGMark.OFFICEClassLibrary.csprojResolveAssemblyReference.cache
+F:\归档\项目归档\长虹白家电\长虹\HGMark.OFFICEClassLibrary\obj\Debug\HGMark.OFFICEClassLibrary.dll
+F:\归档\项目归档\长虹白家电\长虹\HGMark.OFFICEClassLibrary\obj\Debug\HGMark.OFFICEClassLibrary.pdb
+G:\潍柴\潍柴\HGMark.OFFICEClassLibrary\bin\Debug\HGMark.OFFICEClassLibrary.dll
+G:\潍柴\潍柴\HGMark.OFFICEClassLibrary\bin\Debug\HGMark.OFFICEClassLibrary.pdb
+G:\潍柴\潍柴\HGMark.OFFICEClassLibrary\obj\Debug\HGMark.OFFICEClassLibrary.dll
+G:\潍柴\潍柴\HGMark.OFFICEClassLibrary\obj\Debug\HGMark.OFFICEClassLibrary.pdb
+I:\潍柴\潍柴\HGMark.OFFICEClassLibrary\bin\Debug\HGMark.OFFICEClassLibrary.dll
+I:\潍柴\潍柴\HGMark.OFFICEClassLibrary\bin\Debug\HGMark.OFFICEClassLibrary.pdb
+I:\潍柴\潍柴\HGMark.OFFICEClassLibrary\obj\Debug\HGMark.OFFICEClassLibrary.dll
+I:\潍柴\潍柴\HGMark.OFFICEClassLibrary\obj\Debug\HGMark.OFFICEClassLibrary.pdb

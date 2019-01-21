@@ -1,0 +1,8 @@
+F:\归档\项目归档\长虹白家电\长虹\WindowsFormsControlLibrary1\obj\Debug\HGControlLibrary.LeftButtons.resources
+F:\归档\项目归档\长虹白家电\长虹\WindowsFormsControlLibrary1\obj\Debug\HGControlLibrary.csproj.GenerateResource.Cache
+F:\归档\项目归档\长虹白家电\长虹\WindowsFormsControlLibrary1\bin\Debug\HGControlLibrary.dll
+F:\归档\项目归档\长虹白家电\长虹\WindowsFormsControlLibrary1\bin\Debug\HGControlLibrary.pdb
+F:\归档\项目归档\长虹白家电\长虹\WindowsFormsControlLibrary1\obj\Debug\HGControlLibrary.Properties.Resources.resources
+F:\归档\项目归档\长虹白家电\长虹\WindowsFormsControlLibrary1\obj\Debug\HGControlLibrary.dll
+F:\归档\项目归档\长虹白家电\长虹\WindowsFormsControlLibrary1\obj\Debug\HGControlLibrary.pdb
+F:\归档\项目归档\长虹白家电\长虹\WindowsFormsControlLibrary1\obj\Debug\HGControlLibrary.csprojResolveAssemblyReference.cache

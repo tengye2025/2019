@@ -22,3 +22,8 @@ C:\Users\hgtech\Desktop\昆山同日\同日\HGMark.DBClassLibrary\bin\Debug\HGMa
 C:\Users\hgtech\Desktop\昆山同日\同日\HGMark.DBClassLibrary\obj\Debug\HGMark.DBClassLibrary.csprojResolveAssemblyReference.cache
 C:\Users\hgtech\Desktop\昆山同日\同日\HGMark.DBClassLibrary\obj\Debug\HGMark.DBClassLibrary.dll
 C:\Users\hgtech\Desktop\昆山同日\同日\HGMark.DBClassLibrary\obj\Debug\HGMark.DBClassLibrary.pdb
+E:\捷克169\HGMark.DBClassLibrary\bin\Debug\HGMark.DBClassLibrary.dll
+E:\捷克169\HGMark.DBClassLibrary\bin\Debug\HGMark.DBClassLibrary.pdb
+E:\捷克169\HGMark.DBClassLibrary\obj\Debug\HGMark.DBClassLibrary.csprojResolveAssemblyReference.cache
+E:\捷克169\HGMark.DBClassLibrary\obj\Debug\HGMark.DBClassLibrary.dll
+E:\捷克169\HGMark.DBClassLibrary\obj\Debug\HGMark.DBClassLibrary.pdb

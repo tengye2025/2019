@@ -1,0 +1,8 @@
+F:\归档\项目归档\长虹白家电\长虹\WindowsFormsControlLibrary1\bin\Debug\WindowsFormsControlLibrary1.dll
+F:\归档\项目归档\长虹白家电\长虹\WindowsFormsControlLibrary1\bin\Debug\WindowsFormsControlLibrary1.pdb
+F:\归档\项目归档\长虹白家电\长虹\WindowsFormsControlLibrary1\obj\Debug\WindowsFormsControlLibrary1.csprojResolveAssemblyReference.cache
+F:\归档\项目归档\长虹白家电\长虹\WindowsFormsControlLibrary1\obj\Debug\WindowsFormsControlLibrary1.UserControl1.resources
+F:\归档\项目归档\长虹白家电\长虹\WindowsFormsControlLibrary1\obj\Debug\WindowsFormsControlLibrary1.csproj.GenerateResource.Cache
+F:\归档\项目归档\长虹白家电\长虹\WindowsFormsControlLibrary1\obj\Debug\WindowsFormsControlLibrary1.dll
+F:\归档\项目归档\长虹白家电\长虹\WindowsFormsControlLibrary1\obj\Debug\WindowsFormsControlLibrary1.pdb
+F:\归档\项目归档\长虹白家电\长虹\WindowsFormsControlLibrary1\obj\Debug\WindowsFormsControlLibrary1.Properties.Resources.resources

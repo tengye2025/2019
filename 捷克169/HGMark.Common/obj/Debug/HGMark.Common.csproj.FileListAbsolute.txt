@@ -91,3 +91,9 @@ C:\Users\hgtech\Desktop\昆山同日\同日\HGMark.Common\bin\Debug\HGMark.Commo
 C:\Users\hgtech\Desktop\昆山同日\同日\HGMark.Common\obj\Debug\HGMark.Common.csprojResolveAssemblyReference.cache
 C:\Users\hgtech\Desktop\昆山同日\同日\HGMark.Common\obj\Debug\HGMark.Common.dll
 C:\Users\hgtech\Desktop\昆山同日\同日\HGMark.Common\obj\Debug\HGMark.Common.pdb
+E:\捷克169\HGMark.Common\bin\Debug\HGMark.Common.dll.config
+E:\捷克169\HGMark.Common\bin\Debug\HGMark.Common.dll
+E:\捷克169\HGMark.Common\bin\Debug\HGMark.Common.pdb
+E:\捷克169\HGMark.Common\obj\Debug\HGMark.Common.csprojResolveAssemblyReference.cache
+E:\捷克169\HGMark.Common\obj\Debug\HGMark.Common.dll
+E:\捷克169\HGMark.Common\obj\Debug\HGMark.Common.pdb

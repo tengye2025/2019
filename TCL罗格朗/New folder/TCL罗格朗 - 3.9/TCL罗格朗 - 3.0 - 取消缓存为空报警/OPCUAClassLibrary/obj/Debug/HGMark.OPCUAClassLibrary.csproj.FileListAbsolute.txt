@@ -97,3 +97,14 @@ F:\归档\项目归档\TCL罗格朗\New folder\TCL罗格朗 - 3.9\TCL罗格朗 -
 F:\归档\项目归档\TCL罗格朗\New folder\TCL罗格朗 - 3.9\TCL罗格朗 - 3.0 - 取消缓存为空报警\OPCUAClassLibrary\bin\Debug\OpcUaHelper.xml
 F:\归档\项目归档\TCL罗格朗\New folder\TCL罗格朗 - 3.9\TCL罗格朗 - 3.0 - 取消缓存为空报警\OPCUAClassLibrary\obj\Debug\OPCUAClassLibrary.dll
 F:\归档\项目归档\TCL罗格朗\New folder\TCL罗格朗 - 3.9\TCL罗格朗 - 3.0 - 取消缓存为空报警\OPCUAClassLibrary\obj\Debug\OPCUAClassLibrary.pdb
+F:\归档\GETHUB2019PROJECTS\2019\TCL罗格朗\New folder\TCL罗格朗 - 3.9\TCL罗格朗 - 3.0 - 取消缓存为空报警\OPCUAClassLibrary\bin\Debug\OPCUAClassLibrary.dll
+F:\归档\GETHUB2019PROJECTS\2019\TCL罗格朗\New folder\TCL罗格朗 - 3.9\TCL罗格朗 - 3.0 - 取消缓存为空报警\OPCUAClassLibrary\bin\Debug\OPCUAClassLibrary.pdb
+F:\归档\GETHUB2019PROJECTS\2019\TCL罗格朗\New folder\TCL罗格朗 - 3.9\TCL罗格朗 - 3.0 - 取消缓存为空报警\OPCUAClassLibrary\bin\Debug\Opc.Ua.Client.dll
+F:\归档\GETHUB2019PROJECTS\2019\TCL罗格朗\New folder\TCL罗格朗 - 3.9\TCL罗格朗 - 3.0 - 取消缓存为空报警\OPCUAClassLibrary\bin\Debug\Opc.Ua.ClientControls.dll
+F:\归档\GETHUB2019PROJECTS\2019\TCL罗格朗\New folder\TCL罗格朗 - 3.9\TCL罗格朗 - 3.0 - 取消缓存为空报警\OPCUAClassLibrary\bin\Debug\Opc.Ua.Configuration.dll
+F:\归档\GETHUB2019PROJECTS\2019\TCL罗格朗\New folder\TCL罗格朗 - 3.9\TCL罗格朗 - 3.0 - 取消缓存为空报警\OPCUAClassLibrary\bin\Debug\Opc.Ua.Core.dll
+F:\归档\GETHUB2019PROJECTS\2019\TCL罗格朗\New folder\TCL罗格朗 - 3.9\TCL罗格朗 - 3.0 - 取消缓存为空报警\OPCUAClassLibrary\bin\Debug\OpcUaHelper.dll
+F:\归档\GETHUB2019PROJECTS\2019\TCL罗格朗\New folder\TCL罗格朗 - 3.9\TCL罗格朗 - 3.0 - 取消缓存为空报警\OPCUAClassLibrary\bin\Debug\OpcUaHelper.xml
+F:\归档\GETHUB2019PROJECTS\2019\TCL罗格朗\New folder\TCL罗格朗 - 3.9\TCL罗格朗 - 3.0 - 取消缓存为空报警\OPCUAClassLibrary\obj\Debug\HGMark.OPCUAClassLibrary.csprojResolveAssemblyReference.cache
+F:\归档\GETHUB2019PROJECTS\2019\TCL罗格朗\New folder\TCL罗格朗 - 3.9\TCL罗格朗 - 3.0 - 取消缓存为空报警\OPCUAClassLibrary\obj\Debug\OPCUAClassLibrary.dll
+F:\归档\GETHUB2019PROJECTS\2019\TCL罗格朗\New folder\TCL罗格朗 - 3.9\TCL罗格朗 - 3.0 - 取消缓存为空报警\OPCUAClassLibrary\obj\Debug\OPCUAClassLibrary.pdb

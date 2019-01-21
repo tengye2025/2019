@@ -68,3 +68,10 @@ C:\Users\hgtech\Desktop\昆山同日\同日\ModbusClassLibrary\obj\Debug\ModbusC
 C:\Users\hgtech\Desktop\昆山同日\同日\ModbusClassLibrary\obj\Debug\HGMark.ModbusClassLibrary.csproj.GenerateResource.Cache
 C:\Users\hgtech\Desktop\昆山同日\同日\ModbusClassLibrary\obj\Debug\ModbusClassLibrary.dll
 C:\Users\hgtech\Desktop\昆山同日\同日\ModbusClassLibrary\obj\Debug\ModbusClassLibrary.pdb
+E:\捷克169\ModbusClassLibrary\bin\Debug\ModbusClassLibrary.dll
+E:\捷克169\ModbusClassLibrary\bin\Debug\ModbusClassLibrary.pdb
+E:\捷克169\ModbusClassLibrary\obj\Debug\HGMark.ModbusClassLibrary.csprojResolveAssemblyReference.cache
+E:\捷克169\ModbusClassLibrary\obj\Debug\ModbusClassLibrary.Form1.resources
+E:\捷克169\ModbusClassLibrary\obj\Debug\HGMark.ModbusClassLibrary.csproj.GenerateResource.Cache
+E:\捷克169\ModbusClassLibrary\obj\Debug\ModbusClassLibrary.dll
+E:\捷克169\ModbusClassLibrary\obj\Debug\ModbusClassLibrary.pdb

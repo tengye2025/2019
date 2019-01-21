@@ -30,3 +30,11 @@ F:\归档\项目归档\TCL罗格朗\New folder\TCL罗格朗 - 3.9\TCL罗格朗 -
 F:\归档\项目归档\TCL罗格朗\New folder\TCL罗格朗 - 3.9\TCL罗格朗 - 3.0 - 取消缓存为空报警\ClassLibrary1\obj\Debug\HGMark.DataACCessClassLibrary.csproj.ResolveComReference.cache
 F:\归档\项目归档\TCL罗格朗\New folder\TCL罗格朗 - 3.9\TCL罗格朗 - 3.0 - 取消缓存为空报警\ClassLibrary1\obj\Debug\ClassLibrary1.dll
 F:\归档\项目归档\TCL罗格朗\New folder\TCL罗格朗 - 3.9\TCL罗格朗 - 3.0 - 取消缓存为空报警\ClassLibrary1\obj\Debug\ClassLibrary1.pdb
+F:\归档\GETHUB2019PROJECTS\2019\TCL罗格朗\New folder\TCL罗格朗 - 3.9\TCL罗格朗 - 3.0 - 取消缓存为空报警\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+F:\归档\GETHUB2019PROJECTS\2019\TCL罗格朗\New folder\TCL罗格朗 - 3.9\TCL罗格朗 - 3.0 - 取消缓存为空报警\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
+F:\归档\GETHUB2019PROJECTS\2019\TCL罗格朗\New folder\TCL罗格朗 - 3.9\TCL罗格朗 - 3.0 - 取消缓存为空报警\ClassLibrary1\obj\Debug\HGMark.DataACCessClassLibrary.csprojResolveAssemblyReference.cache
+F:\归档\GETHUB2019PROJECTS\2019\TCL罗格朗\New folder\TCL罗格朗 - 3.9\TCL罗格朗 - 3.0 - 取消缓存为空报警\ClassLibrary1\obj\Debug\Interop.ADODB.dll
+F:\归档\GETHUB2019PROJECTS\2019\TCL罗格朗\New folder\TCL罗格朗 - 3.9\TCL罗格朗 - 3.0 - 取消缓存为空报警\ClassLibrary1\obj\Debug\Interop.ADOX.dll
+F:\归档\GETHUB2019PROJECTS\2019\TCL罗格朗\New folder\TCL罗格朗 - 3.9\TCL罗格朗 - 3.0 - 取消缓存为空报警\ClassLibrary1\obj\Debug\HGMark.DataACCessClassLibrary.csproj.ResolveComReference.cache
+F:\归档\GETHUB2019PROJECTS\2019\TCL罗格朗\New folder\TCL罗格朗 - 3.9\TCL罗格朗 - 3.0 - 取消缓存为空报警\ClassLibrary1\obj\Debug\ClassLibrary1.dll
+F:\归档\GETHUB2019PROJECTS\2019\TCL罗格朗\New folder\TCL罗格朗 - 3.9\TCL罗格朗 - 3.0 - 取消缓存为空报警\ClassLibrary1\obj\Debug\ClassLibrary1.pdb

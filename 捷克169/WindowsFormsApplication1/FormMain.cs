@@ -54,15 +54,15 @@ namespace WindowsFormsApplication1
         /// <param name="sender"></param>
         /// <param name="e"></param>
         private void Form2_Load(object sender, EventArgs e)
-        {     
-            byte getcpuidresult =  GetCPUIDAuthority();
+        {
+            byte getcpuidresult = 1;// GetCPUIDAuthority();
             if (getcpuidresult == 1)
             {
                 CreatProcessThread();
                 SetProcessbarvalue(0);
                 INITWINDOWSFORM();
                 SetProcessbarvalue(20);
-                HGLASERINIT();
+                 HGLASERINIT();
                 SetProcessbarvalue(70);
                 for (byte a = 0; a <= 100; a++)
                 {
@@ -72,7 +72,7 @@ namespace WindowsFormsApplication1
                 } 
                                                  
               // CommunicationIint();   //通信
-                 DBInit();//初始化数据库连接
+                // DBInit();//初始化数据库连接
                  CreatWorkThread();                   
                Thread.Sleep(50);
                SetProcessbarvalue(100);
@@ -185,23 +185,70 @@ namespace WindowsFormsApplication1
             myThread.IsBackground = true;
             myThread.Start(this);
         }
-        string printqrcode = "QRCode";
-        string print1 = "1";
-        string print2 = "2";
-        Configure cypoints = new Configure();
+
+        // SPOOL_ID,MATERIAL_COLOR, QR_CODE,HE_TEMP,HB_TEMP,SPOOL_DATE  FROM  DEMO.f_FIL_LABEL_RETURN_SPOOL()";
+
+        string SPOOL_ID = "SPOOL_ID";
+        string MATERIAL_COLOR = "MATERIAL_COLOR";
+        string QR_CODE = "QR_CODE";
+
+        string HE_TEMP = "HE_TEMP";
+        string HB_TEMP = "HB_TEMP";
+        string SPOOL_DATE = "SPOOL_DATE";
+
          
-   
        private void OnworkFrameTreadproc(object p)
        {
-           cypoints.FileName = "AxialY.INI";    
+            
             while (true)
             {               
                 _workenvent.WaitOne(); 
                 if(HgMarkInterface.ReadIO(4))
                 {
-           
+
+                    if (dataGridView1.Rows.Count <= 0)
+                    {
+                        Getprintdataputindatagridviewfromdatabase(dataGridView1);
+                    }
+
+
+                    if (dataGridView1.Rows.Count > 0)
+                    {
+                        string SPOOL_ID_txt = dataGridView1.Rows[0].Cells["SPOOL_ID"].Value.ToString();
+                        log.WriteLog("SPOOL_ID :" + SPOOL_ID_txt, textBoxlog);
+
+                        string MATERIAL_COLOR_txt = dataGridView1.Rows[0].Cells["MATERIAL_COLOR"].Value.ToString();
+                        log.WriteLog("MATERIAL_COLOR :" + MATERIAL_COLOR_txt, textBoxlog);
+
+                        string QR_CODE_txt = dataGridView1.Rows[0].Cells["QR_CODE"].Value.ToString();
+                        log.WriteLog("QR_CODE :" + QR_CODE_txt, textBoxlog);
+
+                        string HE_TEMP_txt = dataGridView1.Rows[0].Cells["HE_TEMP"].Value.ToString();
+                        log.WriteLog("HE_TEMP :" + HE_TEMP_txt, textBoxlog);
+
+                        string HB_TEMP_txt = dataGridView1.Rows[0].Cells["HB_TEMP"].Value.ToString();
+                        log.WriteLog("HB_TEMP :" + HB_TEMP_txt, textBoxlog);
+
+                        string SPOOL_DATE_txt = dataGridView1.Rows[0].Cells["SPOOL_DATE"].Value.ToString();
+                        log.WriteLog("SPOOL_DATE :" + SPOOL_DATE_txt, textBoxlog);
+
+
+                        HgMarkInterface.ChangeNameByTxtstring(ref SPOOL_ID, ref SPOOL_ID_txt, 0);
+                        HgMarkInterface.ChangeNameByTxtstring(ref MATERIAL_COLOR, ref MATERIAL_COLOR_txt, 0);
+
+                        HgMarkInterface.ChangeNameByTxtstring(ref QR_CODE, ref QR_CODE_txt, 0);
+                        HgMarkInterface.ChangeNameByTxtstring(ref HE_TEMP, ref HE_TEMP_txt, 0);
+
+                        HgMarkInterface.ChangeNameByTxtstring(ref HB_TEMP, ref HB_TEMP_txt, 0);
+                        HgMarkInterface.ChangeNameByTxtstring(ref SPOOL_DATE, ref SPOOL_DATE_txt, 0);
+                        HgMarkInterface.Mark(false, 0);
+                        dataGridView1.Rows.RemoveAt(0);
+
+
+                    }
+
                 }
-                Thread.Sleep(10);     
+                Thread.Sleep(5);     
             }
            
         }
@@ -231,7 +278,14 @@ namespace WindowsFormsApplication1
             comboBox2.Text = cf.ReadConfig("COMSET", "COMBATE1", comboBox2.Text);                            
             textBoxIP1.Text = cf.ReadConfig("IPSET", "IPADDER1", textBoxIP1.Text);
             textBoxIPCOM1.Text = cf.ReadConfig("IPSET", "IPCOM1", textBoxIPCOM1.Text);
-          
+
+            textBoxdatasourcename.Text = cf.ReadConfig("ODBC", "sourcename", textBoxdatasourcename.Text);
+            textBoxloginid.Text = cf.ReadConfig("ODBC", "loginid", textBoxloginid.Text);
+
+            textBoxpassword.Text = cf.ReadConfig("ODBC", "password", textBoxpassword.Text);
+            textBoxsqlstatement.Text = cf.ReadConfig("ODBC", "sql", textBoxsqlstatement.Text);
+            
+
             string sorc =   cf.ReadConfig("SORCSET", "SCCHOSE", "");
             switch(sorc)
             {
@@ -245,28 +299,55 @@ namespace WindowsFormsApplication1
         {
             //string csql = "data source=10.60.4.79;initial catalog=bodoe_TRX;user id=wcs;password=123abc;" + "Connect Timeout = 4;";
             //sqlseveroperater.sqlseverClass.SQLSEVERINITSet(ref csql);
-             Configure cf = new Configure();
+           //  Configure cf = new Configure();
+            //textBoxdatasourcename.Text = cf.ReadConfig("ODBC", "sourcename", textBoxdatasourcename.Text);
+            //textBoxloginid.Text= cf.ReadConfig("ODBC", "loginid", textBoxloginid.Text);
+            //textBoxpassword.Text =cf.ReadConfig("ODBC", "password", textBoxpassword.Text);
+
+            //if (textBoxdatasourcename.Text !="" && textBoxloginid.Text!="" && textBoxpassword.Text!="")
+            //{
+            //    try
+            //    {                
+            //        string ConStr = "DSN="+ textBoxdatasourcename.Text + ";UID="  +  textBoxloginid.Text +";PWD=" + textBoxpassword.Text;            
+            //        OdbcConnection odbcCon = new OdbcConnection(ConStr);                
+            //        string SqlStr = "SELECT SPOOL_ID,MATERIAL_COLOR, QR_CODE,HE_TEMP,HB_TEMP,SPOOL_DATE  FROM  DEMO.f_FIL_LABEL_RETURN_SPOOL()";  
+            //        OdbcDataAdapter odbcAdapter = new OdbcDataAdapter(SqlStr, odbcCon);
+            //        DataSet ds = new DataSet();
+            //        odbcAdapter.Fill(ds);
+            //        this.dataGridView1.DataSource = ds.Tables[0].DefaultView;
+            //    }
+            //    catch (System.Exception ex)
+            //    {
+            //        MessageBox.Show(ex.Message);
+            //    }
+            //}
+
+        }
+        private void Getprintdataputindatagridviewfromdatabase( System.Windows.Forms.DataGridView dataGridView1s)
+        {
+            Configure cf = new Configure();
             textBoxdatasourcename.Text = cf.ReadConfig("ODBC", "sourcename", textBoxdatasourcename.Text);
             textBoxloginid.Text= cf.ReadConfig("ODBC", "loginid", textBoxloginid.Text);
             textBoxpassword.Text =cf.ReadConfig("ODBC", "password", textBoxpassword.Text);
-
+            textBoxsqlstatement.Text = cf.ReadConfig("ODBC", "sql", textBoxsqlstatement.Text);
             if (textBoxdatasourcename.Text !="" && textBoxloginid.Text!="" && textBoxpassword.Text!="")
             {
                 try
-                {
-                 
+                {                
                     string ConStr = "DSN="+ textBoxdatasourcename.Text + ";UID="  +  textBoxloginid.Text +";PWD=" + textBoxpassword.Text;
                 
                     OdbcConnection odbcCon = new OdbcConnection(ConStr);
-                  
-                    string SqlStr = "SELECT SPOOL_ID,MATERIAL_COLOR, QR_CODE,HE_TEMP,HB_TEMP,SPOOL_DATE  FROM  f_FIL_LABEL_RETURN_SPOOL()";
+                    string SqlStr = textBoxsqlstatement.Text;
+                   //  string SqlStr = "SELECT SPOOL_ID,MATERIAL_COLOR, QR_CODE,HE_TEMP,HB_TEMP,SPOOL_DATE  FROM  DEMO.f_FIL_LABEL_RETURN_SPOOL()";
 
+                   // string SqlStr = "SELECT * FROM Fun_GewtReportNews()";
 
                     OdbcDataAdapter odbcAdapter = new OdbcDataAdapter(SqlStr, odbcCon);
         
                     DataSet ds = new DataSet();
                     odbcAdapter.Fill(ds);
-                    this.dataGridView1.DataSource = ds.Tables[0].DefaultView;
+
+                    dataGridView1s.DataSource = ds.Tables[0].DefaultView;
 
                 }
                 catch (System.Exception ex)
@@ -653,10 +734,7 @@ namespace WindowsFormsApplication1
         }
    
         private void button7_Click(object sender, EventArgs e)
-        {
-
-       
-       
+        {      
              _workenvent.Set();
             buttonstart.Enabled = false;
         }
@@ -885,8 +963,92 @@ namespace WindowsFormsApplication1
             cf.WriteConfig("ODBC", "sourcename", textBoxdatasourcename.Text);
             cf.WriteConfig("ODBC", "loginid", textBoxloginid.Text);
             cf.WriteConfig("ODBC", "password", textBoxpassword.Text);
-
+            cf.WriteConfig("ODBC", "sql", textBoxsqlstatement.Text);
             MessageBox.Show("OK");
+        }
+
+        private void button8_Click_3(object sender, EventArgs e)
+        {
+            Getprintdataputindatagridviewfromdatabase(dataGridView1);
+        }
+
+        private void button9_Click_1(object sender, EventArgs e)
+        {
+
+            if (dataGridView1.Rows.Count <= 0)
+            {
+                Getprintdataputindatagridviewfromdatabase(dataGridView1);
+            }
+          
+                if (dataGridView1.Rows.Count > 0)
+                {
+
+                    string id = dataGridView1.Rows[0].Cells["axial_type"].Value.ToString();
+
+                    log.WriteLog("id :" + id, textBoxlog);
+                    dataGridView1.Rows.RemoveAt(0);
+
+                }
+           
+        }
+
+        private void button10_Click_1(object sender, EventArgs e)
+        {
+            if (dataGridView1.Rows.Count <= 0)
+            {
+                Getprintdataputindatagridviewfromdatabase(dataGridView1);
+            }
+
+
+            if (dataGridView1.Rows.Count > 0)
+            {
+                string SPOOL_ID_txt = dataGridView1.Rows[0].Cells["SPOOL_ID"].Value.ToString();
+                log.WriteLog("SPOOL_ID :" + SPOOL_ID_txt, textBoxlog);
+
+                string MATERIAL_COLOR_txt = dataGridView1.Rows[0].Cells["MATERIAL_COLOR"].Value.ToString();
+                log.WriteLog("MATERIAL_COLOR :" + MATERIAL_COLOR_txt, textBoxlog);
+
+                string QR_CODE_txt = dataGridView1.Rows[0].Cells["QR_CODE"].Value.ToString();
+                log.WriteLog("QR_CODE :" + QR_CODE_txt, textBoxlog);
+
+                string HE_TEMP_txt = dataGridView1.Rows[0].Cells["HE_TEMP"].Value.ToString();
+                log.WriteLog("HE_TEMP :" + HE_TEMP_txt, textBoxlog);
+
+                string HB_TEMP_txt = dataGridView1.Rows[0].Cells["HB_TEMP"].Value.ToString();
+                log.WriteLog("HB_TEMP :" + HB_TEMP_txt, textBoxlog);
+
+                string SPOOL_DATE_txt = dataGridView1.Rows[0].Cells["SPOOL_DATE"].Value.ToString();
+                log.WriteLog("SPOOL_DATE :" + SPOOL_DATE_txt, textBoxlog);
+
+
+                HgMarkInterface.ChangeNameByTxtstring(ref SPOOL_ID, ref SPOOL_ID_txt, 0);
+                HgMarkInterface.ChangeNameByTxtstring(ref MATERIAL_COLOR, ref MATERIAL_COLOR_txt, 0);
+
+                HgMarkInterface.ChangeNameByTxtstring(ref QR_CODE, ref QR_CODE_txt, 0);
+                HgMarkInterface.ChangeNameByTxtstring(ref HE_TEMP, ref HE_TEMP_txt, 0);
+
+                HgMarkInterface.ChangeNameByTxtstring(ref HB_TEMP, ref HB_TEMP_txt, 0);
+                HgMarkInterface.ChangeNameByTxtstring(ref SPOOL_DATE, ref SPOOL_DATE_txt, 0);
+                HgMarkInterface.Mark(false, 0);
+                dataGridView1.Rows.RemoveAt(0);
+
+
+            }
+
+
+
+
+
+        }
+
+        private void button11_Click_1(object sender, EventArgs e)
+        {
+            Getprintdataputindatagridviewfromdatabase(dataGridViewtest);
+        }
+
+        private void textBoxsqlstatement_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

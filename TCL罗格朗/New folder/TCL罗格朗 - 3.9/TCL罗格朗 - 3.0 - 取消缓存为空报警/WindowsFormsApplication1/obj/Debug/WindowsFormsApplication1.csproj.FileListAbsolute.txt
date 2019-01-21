@@ -1004,3 +1004,31 @@ G:\TCL罗格朗\New folder\TCL罗格朗 - 3.9\TCL罗格朗 - 3.0 - 取消缓存�
 G:\TCL罗格朗\New folder\TCL罗格朗 - 3.9\TCL罗格朗 - 3.0 - 取消缓存为空报警\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.ResolveComReference.cache
 G:\TCL罗格朗\New folder\TCL罗格朗 - 3.9\TCL罗格朗 - 3.0 - 取消缓存为空报警\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
 G:\TCL罗格朗\New folder\TCL罗格朗 - 3.9\TCL罗格朗 - 3.0 - 取消缓存为空报警\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+F:\归档\GETHUB2019PROJECTS\2019\TCL罗格朗\New folder\TCL罗格朗 - 3.9\TCL罗格朗 - 3.0 - 取消缓存为空报警\WindowsFormsApplication1\obj\Debug\Interop.ADOX.dll
+F:\归档\GETHUB2019PROJECTS\2019\TCL罗格朗\New folder\TCL罗格朗 - 3.9\TCL罗格朗 - 3.0 - 取消缓存为空报警\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.ResolveComReference.cache
+F:\归档\GETHUB2019PROJECTS\2019\TCL罗格朗\New folder\TCL罗格朗 - 3.9\TCL罗格朗 - 3.0 - 取消缓存为空报警\WindowsFormsApplication1\bin\Debug\ModbusClassLibrary.dll
+F:\归档\GETHUB2019PROJECTS\2019\TCL罗格朗\New folder\TCL罗格朗 - 3.9\TCL罗格朗 - 3.0 - 取消缓存为空报警\WindowsFormsApplication1\bin\Debug\OPCUAClassLibrary.dll
+F:\归档\GETHUB2019PROJECTS\2019\TCL罗格朗\New folder\TCL罗格朗 - 3.9\TCL罗格朗 - 3.0 - 取消缓存为空报警\WindowsFormsApplication1\bin\Debug\OpcUaHelper.dll
+F:\归档\GETHUB2019PROJECTS\2019\TCL罗格朗\New folder\TCL罗格朗 - 3.9\TCL罗格朗 - 3.0 - 取消缓存为空报警\WindowsFormsApplication1\bin\Debug\Opc.Ua.Core.dll
+F:\归档\GETHUB2019PROJECTS\2019\TCL罗格朗\New folder\TCL罗格朗 - 3.9\TCL罗格朗 - 3.0 - 取消缓存为空报警\WindowsFormsApplication1\bin\Debug\Opc.Ua.Client.dll
+F:\归档\GETHUB2019PROJECTS\2019\TCL罗格朗\New folder\TCL罗格朗 - 3.9\TCL罗格朗 - 3.0 - 取消缓存为空报警\WindowsFormsApplication1\bin\Debug\Opc.Ua.Configuration.dll
+F:\归档\GETHUB2019PROJECTS\2019\TCL罗格朗\New folder\TCL罗格朗 - 3.9\TCL罗格朗 - 3.0 - 取消缓存为空报警\WindowsFormsApplication1\bin\Debug\Opc.Ua.ClientControls.dll
+F:\归档\GETHUB2019PROJECTS\2019\TCL罗格朗\New folder\TCL罗格朗 - 3.9\TCL罗格朗 - 3.0 - 取消缓存为空报警\WindowsFormsApplication1\bin\Debug\ModbusClassLibrary.pdb
+F:\归档\GETHUB2019PROJECTS\2019\TCL罗格朗\New folder\TCL罗格朗 - 3.9\TCL罗格朗 - 3.0 - 取消缓存为空报警\WindowsFormsApplication1\bin\Debug\OPCUAClassLibrary.pdb
+F:\归档\GETHUB2019PROJECTS\2019\TCL罗格朗\New folder\TCL罗格朗 - 3.9\TCL罗格朗 - 3.0 - 取消缓存为空报警\WindowsFormsApplication1\bin\Debug\OpcUaHelper.xml
+F:\归档\GETHUB2019PROJECTS\2019\TCL罗格朗\New folder\TCL罗格朗 - 3.9\TCL罗格朗 - 3.0 - 取消缓存为空报警\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+F:\归档\GETHUB2019PROJECTS\2019\TCL罗格朗\New folder\TCL罗格朗 - 3.9\TCL罗格朗 - 3.0 - 取消缓存为空报警\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.FormExploitationInformation.resources
+F:\归档\GETHUB2019PROJECTS\2019\TCL罗格朗\New folder\TCL罗格朗 - 3.9\TCL罗格朗 - 3.0 - 取消缓存为空报警\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.FormMain.resources
+F:\归档\GETHUB2019PROJECTS\2019\TCL罗格朗\New folder\TCL罗格朗 - 3.9\TCL罗格朗 - 3.0 - 取消缓存为空报警\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.FormProcess.resources
+F:\归档\GETHUB2019PROJECTS\2019\TCL罗格朗\New folder\TCL罗格朗 - 3.9\TCL罗格朗 - 3.0 - 取消缓存为空报警\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.FormProtectHGLaserSoft.resources
+F:\归档\GETHUB2019PROJECTS\2019\TCL罗格朗\New folder\TCL罗格朗 - 3.9\TCL罗格朗 - 3.0 - 取消缓存为空报警\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.FormSetScreat.resources
+F:\归档\GETHUB2019PROJECTS\2019\TCL罗格朗\New folder\TCL罗格朗 - 3.9\TCL罗格朗 - 3.0 - 取消缓存为空报警\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+F:\归档\GETHUB2019PROJECTS\2019\TCL罗格朗\New folder\TCL罗格朗 - 3.9\TCL罗格朗 - 3.0 - 取消缓存为空报警\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Register.FormCPUIDAuthority.resources
+F:\归档\GETHUB2019PROJECTS\2019\TCL罗格朗\New folder\TCL罗格朗 - 3.9\TCL罗格朗 - 3.0 - 取消缓存为空报警\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Register.FormUserTimesAthority.resources
+F:\归档\GETHUB2019PROJECTS\2019\TCL罗格朗\New folder\TCL罗格朗 - 3.9\TCL罗格朗 - 3.0 - 取消缓存为空报警\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+F:\归档\GETHUB2019PROJECTS\2019\TCL罗格朗\New folder\TCL罗格朗 - 3.9\TCL罗格朗 - 3.0 - 取消缓存为空报警\WindowsFormsApplication1\bin\Debug\TCL罗格朗.exe.config
+F:\归档\GETHUB2019PROJECTS\2019\TCL罗格朗\New folder\TCL罗格朗 - 3.9\TCL罗格朗 - 3.0 - 取消缓存为空报警\WindowsFormsApplication1\bin\Debug\TCL罗格朗.exe
+F:\归档\GETHUB2019PROJECTS\2019\TCL罗格朗\New folder\TCL罗格朗 - 3.9\TCL罗格朗 - 3.0 - 取消缓存为空报警\WindowsFormsApplication1\bin\Debug\TCL罗格朗.pdb
+F:\归档\GETHUB2019PROJECTS\2019\TCL罗格朗\New folder\TCL罗格朗 - 3.9\TCL罗格朗 - 3.0 - 取消缓存为空报警\WindowsFormsApplication1\obj\Debug\TCL罗格朗.exe
+F:\归档\GETHUB2019PROJECTS\2019\TCL罗格朗\New folder\TCL罗格朗 - 3.9\TCL罗格朗 - 3.0 - 取消缓存为空报警\WindowsFormsApplication1\obj\Debug\TCL罗格朗.pdb
+F:\归档\GETHUB2019PROJECTS\2019\TCL罗格朗\New folder\TCL罗格朗 - 3.9\TCL罗格朗 - 3.0 - 取消缓存为空报警\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache

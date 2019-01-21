@@ -31,6 +31,11 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.button10 = new System.Windows.Forms.Button();
+            this.groupBox6 = new System.Windows.Forms.GroupBox();
+            this.button9 = new System.Windows.Forms.Button();
+            this.button8 = new System.Windows.Forms.Button();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.labelcomstaus = new System.Windows.Forms.Label();
             this.buttonstop = new System.Windows.Forms.Button();
@@ -38,6 +43,18 @@
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.textBoxlog = new System.Windows.Forms.TextBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.textBoxsqlstatement = new System.Windows.Forms.TextBox();
+            this.button11 = new System.Windows.Forms.Button();
+            this.dataGridViewtest = new System.Windows.Forms.DataGridView();
+            this.button7 = new System.Windows.Forms.Button();
+            this.textBoxpassword = new System.Windows.Forms.TextBox();
+            this.textBoxloginid = new System.Windows.Forms.TextBox();
+            this.textBoxdatasourcename = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.button4 = new System.Windows.Forms.Button();
@@ -62,27 +79,23 @@
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
-            this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.groupBox5 = new System.Windows.Forms.GroupBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.textBoxdatasourcename = new System.Windows.Forms.TextBox();
-            this.textBoxloginid = new System.Windows.Forms.TextBox();
-            this.textBoxpassword = new System.Windows.Forms.TextBox();
-            this.button7 = new System.Windows.Forms.Button();
+            this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.toolStripStatusLabel2 = new System.Windows.Forms.ToolStripStatusLabel();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
+            this.groupBox6.SuspendLayout();
+            this.groupBox4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.groupBox3.SuspendLayout();
             this.tabPage2.SuspendLayout();
+            this.groupBox5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewtest)).BeginInit();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxmodelfileshow)).BeginInit();
             this.groupBox2.SuspendLayout();
             this.tabPage3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            this.groupBox4.SuspendLayout();
-            this.groupBox5.SuspendLayout();
+            this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -94,13 +107,15 @@
             this.tabControl1.Location = new System.Drawing.Point(0, -1);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(993, 560);
+            this.tabControl1.Size = new System.Drawing.Size(1076, 560);
             this.tabControl1.TabIndex = 0;
             this.tabControl1.SelectedIndexChanged += new System.EventHandler(this.tabControl1_SelectedIndexChanged);
             // 
             // tabPage1
             // 
             this.tabPage1.BackColor = System.Drawing.Color.White;
+            this.tabPage1.Controls.Add(this.button10);
+            this.tabPage1.Controls.Add(this.groupBox6);
             this.tabPage1.Controls.Add(this.groupBox4);
             this.tabPage1.Controls.Add(this.labelcomstaus);
             this.tabPage1.Controls.Add(this.buttonstop);
@@ -109,17 +124,70 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(985, 534);
+            this.tabPage1.Size = new System.Drawing.Size(1068, 534);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "workform";
             // 
+            // button10
+            // 
+            this.button10.Location = new System.Drawing.Point(663, 327);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(103, 62);
+            this.button10.TabIndex = 17;
+            this.button10.Text = "manual mark";
+            this.button10.UseVisualStyleBackColor = true;
+            this.button10.Click += new System.EventHandler(this.button10_Click_1);
+            // 
+            // groupBox6
+            // 
+            this.groupBox6.Controls.Add(this.button9);
+            this.groupBox6.Controls.Add(this.button8);
+            this.groupBox6.Location = new System.Drawing.Point(649, 6);
+            this.groupBox6.Name = "groupBox6";
+            this.groupBox6.Size = new System.Drawing.Size(250, 116);
+            this.groupBox6.TabIndex = 16;
+            this.groupBox6.TabStop = false;
+            this.groupBox6.Text = "groupBox6";
+            this.groupBox6.Visible = false;
+            // 
+            // button9
+            // 
+            this.button9.Location = new System.Drawing.Point(6, 20);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(102, 76);
+            this.button9.TabIndex = 15;
+            this.button9.Text = "delete";
+            this.button9.UseVisualStyleBackColor = true;
+            this.button9.Click += new System.EventHandler(this.button9_Click_1);
+            // 
+            // button8
+            // 
+            this.button8.Location = new System.Drawing.Point(123, 20);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(107, 76);
+            this.button8.TabIndex = 14;
+            this.button8.Text = "get";
+            this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.button8_Click_3);
+            // 
+            // groupBox4
+            // 
+            this.groupBox4.Controls.Add(this.dataGridView1);
+            this.groupBox4.Location = new System.Drawing.Point(12, 6);
+            this.groupBox4.Name = "groupBox4";
+            this.groupBox4.Size = new System.Drawing.Size(631, 389);
+            this.groupBox4.TabIndex = 13;
+            this.groupBox4.TabStop = false;
+            this.groupBox4.Text = "datagridview";
+            // 
             // dataGridView1
             // 
+            this.dataGridView1.AllowUserToAddRows = false;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(13, 20);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowTemplate.Height = 23;
-            this.dataGridView1.Size = new System.Drawing.Size(596, 363);
+            this.dataGridView1.Size = new System.Drawing.Size(608, 363);
             this.dataGridView1.TabIndex = 12;
             // 
             // labelcomstaus
@@ -163,7 +231,7 @@
             // 
             // textBoxlog
             // 
-            this.textBoxlog.Location = new System.Drawing.Point(28, 14);
+            this.textBoxlog.Location = new System.Drawing.Point(17, 14);
             this.textBoxlog.Multiline = true;
             this.textBoxlog.Name = "textBoxlog";
             this.textBoxlog.ScrollBars = System.Windows.Forms.ScrollBars.Both;
@@ -180,17 +248,133 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(985, 534);
+            this.tabPage2.Size = new System.Drawing.Size(1068, 534);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "system";
             // 
+            // groupBox5
+            // 
+            this.groupBox5.Controls.Add(this.label9);
+            this.groupBox5.Controls.Add(this.textBoxsqlstatement);
+            this.groupBox5.Controls.Add(this.button11);
+            this.groupBox5.Controls.Add(this.dataGridViewtest);
+            this.groupBox5.Controls.Add(this.button7);
+            this.groupBox5.Controls.Add(this.textBoxpassword);
+            this.groupBox5.Controls.Add(this.textBoxloginid);
+            this.groupBox5.Controls.Add(this.textBoxdatasourcename);
+            this.groupBox5.Controls.Add(this.label8);
+            this.groupBox5.Controls.Add(this.label7);
+            this.groupBox5.Controls.Add(this.label6);
+            this.groupBox5.Location = new System.Drawing.Point(541, 38);
+            this.groupBox5.Name = "groupBox5";
+            this.groupBox5.Size = new System.Drawing.Size(519, 346);
+            this.groupBox5.TabIndex = 6;
+            this.groupBox5.TabStop = false;
+            this.groupBox5.Text = "odbc";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(26, 110);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(83, 12);
+            this.label9.TabIndex = 16;
+            this.label9.Text = "sql statement";
+            // 
+            // textBoxsqlstatement
+            // 
+            this.textBoxsqlstatement.Location = new System.Drawing.Point(115, 106);
+            this.textBoxsqlstatement.Name = "textBoxsqlstatement";
+            this.textBoxsqlstatement.Size = new System.Drawing.Size(398, 21);
+            this.textBoxsqlstatement.TabIndex = 15;
+            this.textBoxsqlstatement.TextChanged += new System.EventHandler(this.textBoxsqlstatement_TextChanged);
+            // 
+            // button11
+            // 
+            this.button11.Location = new System.Drawing.Point(9, 136);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(108, 24);
+            this.button11.TabIndex = 14;
+            this.button11.Text = "test odbc";
+            this.button11.UseVisualStyleBackColor = true;
+            this.button11.Click += new System.EventHandler(this.button11_Click_1);
+            // 
+            // dataGridViewtest
+            // 
+            this.dataGridViewtest.AllowUserToAddRows = false;
+            this.dataGridViewtest.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewtest.Location = new System.Drawing.Point(9, 164);
+            this.dataGridViewtest.Name = "dataGridViewtest";
+            this.dataGridViewtest.RowTemplate.Height = 23;
+            this.dataGridViewtest.Size = new System.Drawing.Size(504, 175);
+            this.dataGridViewtest.TabIndex = 13;
+            // 
+            // button7
+            // 
+            this.button7.Location = new System.Drawing.Point(300, 78);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(82, 22);
+            this.button7.TabIndex = 8;
+            this.button7.Text = "save";
+            this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click_4);
+            // 
+            // textBoxpassword
+            // 
+            this.textBoxpassword.Location = new System.Drawing.Point(115, 79);
+            this.textBoxpassword.Name = "textBoxpassword";
+            this.textBoxpassword.PasswordChar = '*';
+            this.textBoxpassword.Size = new System.Drawing.Size(178, 21);
+            this.textBoxpassword.TabIndex = 7;
+            // 
+            // textBoxloginid
+            // 
+            this.textBoxloginid.Location = new System.Drawing.Point(116, 52);
+            this.textBoxloginid.Name = "textBoxloginid";
+            this.textBoxloginid.Size = new System.Drawing.Size(178, 21);
+            this.textBoxloginid.TabIndex = 6;
+            // 
+            // textBoxdatasourcename
+            // 
+            this.textBoxdatasourcename.Location = new System.Drawing.Point(115, 25);
+            this.textBoxdatasourcename.Name = "textBoxdatasourcename";
+            this.textBoxdatasourcename.Size = new System.Drawing.Size(178, 21);
+            this.textBoxdatasourcename.TabIndex = 5;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(56, 79);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(53, 12);
+            this.label8.TabIndex = 4;
+            this.label8.Text = "password";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(56, 55);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(53, 12);
+            this.label7.TabIndex = 3;
+            this.label7.Text = "login id";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(8, 28);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(101, 12);
+            this.label6.TabIndex = 2;
+            this.label6.Text = "data source name";
+            // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(604, 390);
+            this.button1.Location = new System.Drawing.Point(541, 390);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(101, 45);
             this.button1.TabIndex = 5;
-            this.button1.Text = "密码设置";
+            this.button1.Text = "Password settings";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click_2);
             // 
@@ -204,7 +388,7 @@
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Location = new System.Drawing.Point(6, 6);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(592, 429);
+            this.groupBox1.Size = new System.Drawing.Size(529, 429);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "model set";
@@ -402,7 +586,7 @@
             this.tabPage3.Controls.Add(this.pictureBox2);
             this.tabPage3.Location = new System.Drawing.Point(4, 22);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Size = new System.Drawing.Size(985, 534);
+            this.tabPage3.Size = new System.Drawing.Size(1068, 534);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "about";
             // 
@@ -417,95 +601,26 @@
             // 
             // statusStrip1
             // 
+            this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripStatusLabel1,
+            this.toolStripStatusLabel2});
             this.statusStrip1.Location = new System.Drawing.Point(0, 562);
             this.statusStrip1.Name = "statusStrip1";
             this.statusStrip1.Size = new System.Drawing.Size(1076, 22);
             this.statusStrip1.TabIndex = 1;
             this.statusStrip1.Text = "statusStrip1";
             // 
-            // groupBox4
+            // toolStripStatusLabel1
             // 
-            this.groupBox4.Controls.Add(this.dataGridView1);
-            this.groupBox4.Location = new System.Drawing.Point(12, 6);
-            this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(615, 389);
-            this.groupBox4.TabIndex = 13;
-            this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "datagridview";
+            this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
+            this.toolStripStatusLabel1.Size = new System.Drawing.Size(120, 17);
+            this.toolStripStatusLabel1.Text = "software engineer :";
             // 
-            // groupBox5
+            // toolStripStatusLabel2
             // 
-            this.groupBox5.Controls.Add(this.button7);
-            this.groupBox5.Controls.Add(this.textBoxpassword);
-            this.groupBox5.Controls.Add(this.textBoxloginid);
-            this.groupBox5.Controls.Add(this.textBoxdatasourcename);
-            this.groupBox5.Controls.Add(this.label8);
-            this.groupBox5.Controls.Add(this.label7);
-            this.groupBox5.Controls.Add(this.label6);
-            this.groupBox5.Location = new System.Drawing.Point(604, 38);
-            this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(366, 244);
-            this.groupBox5.TabIndex = 6;
-            this.groupBox5.TabStop = false;
-            this.groupBox5.Text = "odbc";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(25, 38);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(101, 12);
-            this.label6.TabIndex = 2;
-            this.label6.Text = "data source name";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(73, 65);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(53, 12);
-            this.label7.TabIndex = 3;
-            this.label7.Text = "login id";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(73, 89);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(53, 12);
-            this.label8.TabIndex = 4;
-            this.label8.Text = "password";
-            // 
-            // textBoxdatasourcename
-            // 
-            this.textBoxdatasourcename.Location = new System.Drawing.Point(132, 35);
-            this.textBoxdatasourcename.Name = "textBoxdatasourcename";
-            this.textBoxdatasourcename.Size = new System.Drawing.Size(178, 21);
-            this.textBoxdatasourcename.TabIndex = 5;
-            // 
-            // textBoxloginid
-            // 
-            this.textBoxloginid.Location = new System.Drawing.Point(133, 62);
-            this.textBoxloginid.Name = "textBoxloginid";
-            this.textBoxloginid.Size = new System.Drawing.Size(178, 21);
-            this.textBoxloginid.TabIndex = 6;
-            // 
-            // textBoxpassword
-            // 
-            this.textBoxpassword.Location = new System.Drawing.Point(132, 89);
-            this.textBoxpassword.Name = "textBoxpassword";
-            this.textBoxpassword.Size = new System.Drawing.Size(178, 21);
-            this.textBoxpassword.TabIndex = 7;
-            // 
-            // button7
-            // 
-            this.button7.Location = new System.Drawing.Point(228, 132);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(82, 22);
-            this.button7.TabIndex = 8;
-            this.button7.Text = "save";
-            this.button7.UseVisualStyleBackColor = true;
-            this.button7.Click += new System.EventHandler(this.button7_Click_4);
+            this.toolStripStatusLabel2.Name = "toolStripStatusLabel2";
+            this.toolStripStatusLabel2.Size = new System.Drawing.Size(101, 17);
+            this.toolStripStatusLabel2.Text = "ty@hglaser.com";
             // 
             // FormMain
             // 
@@ -522,17 +637,22 @@
             this.MaximizeBox = false;
             this.Name = "FormMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "HGlaserV2.0";
+            this.Text = "HGlaserV2.1";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FormMain_FormClosing);
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.FormMain_FormClosed);
             this.Load += new System.EventHandler(this.Form2_Load);
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
+            this.groupBox6.ResumeLayout(false);
+            this.groupBox4.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
             this.tabPage2.ResumeLayout(false);
+            this.groupBox5.ResumeLayout(false);
+            this.groupBox5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewtest)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxmodelfileshow)).EndInit();
@@ -540,9 +660,8 @@
             this.groupBox2.PerformLayout();
             this.tabPage3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            this.groupBox4.ResumeLayout(false);
-            this.groupBox5.ResumeLayout(false);
-            this.groupBox5.PerformLayout();
+            this.statusStrip1.ResumeLayout(false);
+            this.statusStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -592,5 +711,15 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.GroupBox groupBox6;
+        private System.Windows.Forms.Button button10;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.TextBox textBoxsqlstatement;
+        private System.Windows.Forms.Button button11;
+        private System.Windows.Forms.DataGridView dataGridViewtest;
+        private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
+        private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel2;
     }
 }

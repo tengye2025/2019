@@ -408,6 +408,7 @@ static public void GetCRC(ref byte[] message, ref byte[] CRC)
                 CRCFull = (ushort)(CRCFull ^ 0xA001);
         }
     }
+
     CRC[1] = CRCHigh = (byte)((CRCFull >> 8) & 0xFF);
     CRC[0] = CRCLow = (byte)(CRCFull & 0xFF);
 }
